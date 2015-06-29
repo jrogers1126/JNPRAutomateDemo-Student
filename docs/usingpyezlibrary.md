@@ -359,7 +359,7 @@ These two features are very powerful, but are somewhat abstract concepts. To bet
 
 In this example, we’re going to build on the XML examples shown previously in the “RPC Mapping Examples” section, and show how we can use PyEZ to programmatically collect details about port states. This might feel like a simplistic use case, but this is actually the script that the author first wrote when starting out with the PyEZ library to solve a real world “on the job” customer problem.
 
-The first thing we need to do is map the <rpc> for the “show interface” command to a table structure. A table takes all of the XML output and collects into an ordered fashion. Table and view definitions are written in the YAML format, which is an easy to read format that is also programming language independent. The PyEZ library stores these definitions in the “lib/jnpr/junos/op/” directory in the folder where the PyEZ library is stored.
+The first thing we need to do is map the \<rpc\> for the “show interface” command to a table structure. A table takes all of the XML output and collects into an ordered fashion. Table and view definitions are written in the YAML format, which is an easy to read format that is also programming language independent. The PyEZ library stores these definitions in the “lib/jnpr/junos/op/” directory in the folder where the PyEZ library is stored.
 
 First, lets have a look at the following table definition that ships with the PyEZ library.
 
